@@ -34,8 +34,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-This opens the app in your browser at `http://localhost:8501`.
-
 ## Expected file formats
 
 **Call records** (CSV or Excel) — 5 columns in this exact order:
