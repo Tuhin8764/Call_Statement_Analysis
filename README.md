@@ -42,7 +42,7 @@ This opens the app in your browser at `http://localhost:8501`.
 
 | Sl no. | Date | Time | Ph Number | Call time(sec) |
 |---|---|---|---|---|
-| 1 | 21-01-2026 | 18:57:21 | 9876543210 | 78 |
+| 1 | 21-01-2026 | 18:57:21 | 1234567890 | 78 |
 
 - Date format can be auto-detected, or you can pick the exact format from the
   sidebar if auto-detect gets it wrong.
@@ -52,7 +52,7 @@ This opens the app in your browser at `http://localhost:8501`.
 
 | Name | Contacts |
 |---|---|
-| John Doe | 9876543210 |
+| John Doe | 1234567890 |
 
 Phone numbers are matched on their last 10 digits, so formatting differences
 (spaces, dashes, +91 prefixes) are handled automatically.
@@ -69,7 +69,5 @@ requirements.txt
 
 ## Notes
 
-- All processing happens locally in your own Streamlit session — no data is
-  sent anywhere else.
 - The PDF report regenerates fresh each time you click "Generate PDF report",
   reflecting whatever file is currently loaded.
